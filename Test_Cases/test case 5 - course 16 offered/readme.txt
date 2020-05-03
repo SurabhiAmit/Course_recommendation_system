@@ -1,0 +1,1 @@
+This is similar to test case #1, where the course 16 is now being offered.

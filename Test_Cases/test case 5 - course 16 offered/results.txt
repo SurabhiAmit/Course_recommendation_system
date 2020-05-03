@@ -1,0 +1,22 @@
+courses being taught
+2: Programming I by 2: EVERETT KIM
+3: Computer Architecture by 8: REBECCA CURRY
+4: Programming II by 5: LAUREN HALEY
+10: Machine Learning by 3: JOSEPH LE
+16: Operating Systems by 6: JOSEPH LAWSON
+student status and costs
+1004: CAROL TAYLOR passed 2 course(s) for $200
+1009: GARY ALLEN passed 1 course(s) for $200
+1012: JULIE TURNER passed 0 course(s) for $150
+1014: RENEE CARNEY passed 1 course(s) for $300
+1015: JAMES FISHER passed 3 course(s) for $350
+1016: TRACEY WHITE passed 1 course(s) for $100
+1021: JEFFREY CLAYTON passed 1 course(s) for $200
+request processing
+1024, 2: granted
+1012, 3: granted
+1015, 2: granted
+1009, 10: denied: missing prerequisites
+1009, 7: denied: not being offered
+1004, 10: granted
+1021, 4: granted

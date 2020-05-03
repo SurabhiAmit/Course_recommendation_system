@@ -1,0 +1,1 @@
+This is similar to test case #1, where the cost of course 2 has been significantly increased.
