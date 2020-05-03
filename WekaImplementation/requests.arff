@@ -1,0 +1,15 @@
+@relation requests
+
+@attribute STUDENT_ID numeric
+@attribute COURSE numeric
+
+@data
+1012,6
+1012,5
+1012,3
+1013,4
+1013,5
+1016,4
+1016,7
+1018,1
+1018,2

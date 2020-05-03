@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.gatech.coursemanagement.controller.HomeController">
+   <children>
+      <Label layoutX="23.0" layoutY="27.0" text="Execution Mode:" />
+      <RadioButton fx:id="rdoInitialMode" layoutX="159.0" layoutY="26.0" mnemonicParsing="false" text="Initial">
+         <toggleGroup>
+            <ToggleGroup fx:id="ExecutionMode" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="rdoResumeMode" layoutX="248.0" layoutY="26.0" mnemonicParsing="false" text="Resume" toggleGroup="$ExecutionMode" />
+      <Label layoutX="22.0" layoutY="87.0" text="Current Term:" />
+      <Button fx:id="btnStartSimulation" layoutX="439.0" layoutY="23.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="136.0" text="Start Simulation" />
+      <Line endX="450.0" layoutX="124.0" layoutY="62.0" startX="-100.0" />
+      <Label fx:id="lblCurrentTerm" layoutX="132.0" layoutY="87.0" text="0" />
+      <Button fx:id="btnProcessRequests" layoutX="438.0" layoutY="80.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="136.0" text="Process Requests" />
+      <Button fx:id="btnValidateRequests" layoutX="438.0" layoutY="115.0" mnemonicParsing="false" text="Validate Requests" />
+      <Button fx:id="btnGenerateGrades" layoutX="437.0" layoutY="150.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="136.0" text="Generate Grades" />
+      <Button fx:id="btnStartNextTerm" layoutX="437.0" layoutY="186.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="136.0" text="Start Next Term" />
+      <AnchorPane fx:id="paneInstructions" layoutX="25.0" layoutY="231.0" prefHeight="145.0" prefWidth="551.0">
+         <children>
+            <Label text="Instructions:" underline="true" />
+            <Label layoutY="28.0" text="Instructors can be assigned to courses before 'Process Requests' and only one" />
+            <Label layoutY="48.0" text="instructor reassignment is allowed after 'Process Requests'." />
+            <Hyperlink fx:id="lnkInstructorsTab" layoutX="-4.0" layoutY="71.0" text="Click here to go to Instructors tab." />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

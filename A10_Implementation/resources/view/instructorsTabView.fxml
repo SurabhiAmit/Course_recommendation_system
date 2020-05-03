@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.151" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.gatech.coursemanagement.controller.InstructorController">
+    <children>
+      <SplitPane dividerPositions="0.5" prefHeight="402.0" prefWidth="602.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <TableView fx:id="instructorsTable" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <columns>
+                  <TableColumn fx:id="idColumn" prefWidth="50.0" text="ID" />
+                  <TableColumn fx:id="nameColumn" prefWidth="200.0" text="Name" />
+                  <TableColumn fx:id="emailColumn" prefWidth="150.0" text="Email" />
+                  <TableColumn fx:id="officeHoursColumn" prefWidth="150.0" text="Office Hours" visible="false" />
+                  <TableColumn fx:id="assignedCourseColumn" prefWidth="150.0" text="Assigned Course" />
+              </columns>
+            <columnResizePolicy>
+              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+            </TableView>
+            <AnchorPane fx:id="paneInstructorDetails" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                   <Label fx:id="lblInstructions" layoutX="14.0" layoutY="7.0" text="Click on an instructor to assign course" />
+                   <Pane fx:id="paneInstructorAssign" layoutX="14.0" layoutY="14.0" prefHeight="295.0" prefWidth="285.0">
+                      <Label fx:id="lblInstructorName" layoutX="14.0" layoutY="7.0" text="Instructor Details" />
+                      <Separator layoutX="14.0" layoutY="29.0" prefHeight="3.0" prefWidth="264.0" />
+                      <Label layoutX="14.0" layoutY="48.0" text="Currently teaches a course:" />
+                      <Label fx:id="lblTeachesCourse" layoutX="204.0" layoutY="48.0" text="None" />
+                      <ComboBox fx:id="cboAssignToCourse" layoutX="14.0" layoutY="91.0" prefHeight="25.0" prefWidth="264.0" promptText="Select the course to teach" />
+                      <Button fx:id="btnAssignCourse" layoutX="14.0" layoutY="124.0" mnemonicParsing="false" text="Assign" />
+                   </Pane>
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+    </children>
+</AnchorPane>

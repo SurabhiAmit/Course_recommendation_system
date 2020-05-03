@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="edu.gatech.coursemanagement.controller.DegreeProgramController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <TableView fx:id="programsTable" maxWidth="1.7976931348623157E308" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columns>
+                <TableColumn fx:id="programIdColumn" prefWidth="85.0" text="ID" />
+                <TableColumn fx:id="programNameColumn" prefWidth="435.0" text="Name" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

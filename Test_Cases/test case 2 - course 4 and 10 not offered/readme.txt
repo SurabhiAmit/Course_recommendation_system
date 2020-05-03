@@ -1,1 +1,0 @@
-This is similar to test case #1, where courses 4 and 10 are no longer being offered.

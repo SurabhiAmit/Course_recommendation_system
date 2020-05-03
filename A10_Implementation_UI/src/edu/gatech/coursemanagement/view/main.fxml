@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="edu.gatech.coursemanagement.controller.MainController">
+  <tabs>
+    <Tab fx:id="homeTab" text="Home">
+      <content>
+        <fx:include fx:id="homeTabView" source="homeTabView.fxml"/>
+      </content>
+    </Tab>
+      <Tab fx:id="courseCatalogTab" text="Course Catalog">
+          <content>
+              <fx:include fx:id="courseCatalogTabView" source="courseCatalogTabView.fxml"/>
+          </content>
+      </Tab>
+      <Tab fx:id="analysisTab" text="Analysis">
+          <content>
+              <fx:include fx:id="analysisTabView" source="analysisTabView.fxml"/>
+          </content>
+      </Tab>
+      <Tab fx:id="instructorsTab" text="Instructors">
+          <content>
+              <fx:include fx:id="instructorsTabView" source="instructorsTabView.fxml"/>
+          </content>
+      </Tab>
+      <Tab fx:id="studentsTab" text="Students">
+          <content>
+              <fx:include fx:id="studentsTabView" source="studentsTabView.fxml"/>
+          </content>
+      </Tab>
+      <Tab fx:id="recordsTab" text="Academic Records">
+          <content>
+              <fx:include fx:id="recordsTabView" source="recordsTabView.fxml"/>
+          </content>
+      </Tab>
+  </tabs>
+</TabPane>

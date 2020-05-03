@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.gatech.coursemanagement.controller.CourseCatalogController">
+   <children>
+      <TableView fx:id="courseCatalogTable" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="courseIdColumn" prefWidth="85.0" text="Course ID" />
+          <TableColumn fx:id="courseTitleColumn" prefWidth="435.0" text="Course Title" />
+          <TableColumn fx:id="coursePreReqColumn" prefWidth="75.0" text="Prereqs" />
+          <TableColumn fx:id="courseCostColumn" prefWidth="75.0" text="Cost" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
