@@ -12,13 +12,13 @@ https://www.youtube.com/watch?v=05NVlE2A_M4&feature=youtu.be
 #### VM Image
 virtual_machine_image folder
 
-VM credentials:
+>> VM credentials:
 
 User : student
 
 Password : cs6310
 
-DB credentials:
+>> DB credentials:
 
 User : root
 
