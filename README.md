@@ -1,4 +1,4 @@
-Online Course Management system :
+## Online Course Management system :
 
 Course demand was predicted by analyzing trends and patterns using Weka Machine Learning software (Market Basket Analysis & Apriori) on large-scale course data.
 
@@ -6,10 +6,10 @@ WekaImplementation folder has the machine learning part implemented using Weka s
 
 Project Presentation.mp4 has the video demonstration of the project
 
-Demonstration video
+#### Demonstration video
 https://www.youtube.com/watch?v=05NVlE2A_M4&feature=youtu.be 
 
-VM Image
+#### VM Image
 virtual_machine_image folder
 
 VM credentials:
@@ -27,7 +27,7 @@ JAR file
 The JAR file is placed inside the CourseManagementSystem folder on the desktop of the Virtual Machine along with test case. On command prompt, going to that folder on Desktop and executing the following command opens the application, as shown in the video demonstration:
 java -jar CourseManagementTeam45-1.0-jar-with-dependencies.jar
 
-User Reference Manual:
+#### User Reference Manual:
 
 Steps for navigating on UI: 
 The application begins with the Home Screen and other tabs are disabled. 
@@ -48,7 +48,7 @@ On clicking Start Next Term button, Process Requests button will be enabled.
 After Weka analysis and course assignment to instructors, Process Request button is clicked. On clicking this button, requests file for next term will be uploaded. 
 If the request file for that term does not exist, an error dialog box will pop-up stating the same.
 
-REFERENCES
+#### REFERENCES
 weka - How can I use transactional data in Weka? (2017). Retrieved from WEKA The University of Waikato: https://weka.wikispaces.com/How+can+I+use+transactional+data+in+Weka%3F 
 GC: weka.filters.unsupervised.instance.Denormalize. (n.d.). Retrieved from GC: http://grepcode.com/file/repo1.maven.org/maven2/nz.ac.waikato.cms.weka/denormalize/1.0.2/weka/filters/unsupervised/instance/Denormalize.java/#Denormalize
 Java Code Examples for weka.associations.Apriori. (n.d.). Retrieved from Program Creek: https://www.programcreek.com/java-api-examples/index.php?api=weka.associations.Apriori
