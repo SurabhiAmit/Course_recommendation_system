@@ -13,17 +13,23 @@ https://www.youtube.com/watch?v=05NVlE2A_M4&feature=youtu.be
 virtual_machine_image folder
 
 VM credentials:
+
 User : student
+
 Password : cs6310
 
 DB credentials:
+
 User : root
+
 Password : cs6310
 
-Source code
+>> Source code
+
 The source code can be viewed on clicking the IntelliJ icon on the desktop of course VM.
 
-JAR file 
+>> JAR file 
+
 The JAR file is placed inside the CourseManagementSystem folder on the desktop of the Virtual Machine along with test case. On command prompt, going to that folder on Desktop and executing the following command opens the application, as shown in the video demonstration:
 java -jar CourseManagementTeam45-1.0-jar-with-dependencies.jar
 
